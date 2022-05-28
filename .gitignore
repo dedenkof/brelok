@@ -24,6 +24,7 @@
 npm-debug.log
 Thumbs.db
 .idea
+.vscode
 .cache
 *.sublime-grunt.cache
 *.sublime-project
@@ -36,4 +37,3 @@ bower_components/
 dist/
 build/
 node_modules/
-
