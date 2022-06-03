@@ -70,7 +70,7 @@ gulp.task('scripts', function () {
       presets: ['@babel/preset-env']
     }))
     .pipe(concat('all.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(rename('all.min.js'))
     .pipe(sourcemaps.write(''))
     .pipe(gulp.dest('build/js'))
